@@ -3,7 +3,7 @@
     active:
     - dev #当前使用环境
 ---
-content: dev content 刷新出来看看
+content: dev content 刷新出来看看**********************
 spring:
   profiles: dev
   application:
@@ -13,7 +13,7 @@ eureka:
     service-url:
       defaultZone: http://yys.server1.com:1001/eureka/
 ---
-content: test content 刷新出来看看
+content: test content 刷新出来看看*********************
 spring:
   profiles: test
   application:
